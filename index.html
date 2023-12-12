@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e2e8f0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="MatriXYZ">
+    <meta name="msapplication-TileImage" content="apple-touch-icon.png">
+    <meta name="msapplication-TileColor" content="#e2e8f0">
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <!-- <link rel="manifest" href="data:application/json;base64,ew0KCSJuYW1lIjogIk1hdHJpWFlaIiwNCgkic2hvcnRfbmFtZSI6ICJNYXRyaVhZWiIsDQoJInN0YXJ0X3VybCI6ICJodHRwOi8vbG9jYWxob3N0OjMwMDAiLA0KCSJkaXNwbGF5IjogInN0YW5kYWxvbmUiLA0KCSJ0aGVtZV9jb2xvciI6ICIjZTJlOGYwIiwNCgkiYmFja2dyb3VuZF9jb2xvciI6ICIjZTJlOGYwIiwNCgkiaWNvbnMiOiBbDQoJCXsNCgkJCSJzcmMiOiAiaHR0cDovL2xvY2FsaG9zdDozMDAwL2Zhdmljb24tMTZ4MTYucG5nIiwNCgkJCSJzaXplcyI6ICIxNngxNiIsDQoJCQkidHlwZSI6ICJpbWFnZS9wbmciDQoJCX0sDQoJCXsNCgkJCSJzcmMiOiAiaHR0cDovL2xvY2FsaG9zdDozMDAwL2Zhdmljb24tMzJ4MzIucG5nIiwNCgkJCSJzaXplcyI6ICIzMngzMiIsDQoJCQkidHlwZSI6ICJpbWFnZS9wbmciDQoJCX0sDQoJCXsNCgkJCSJzcmMiOiAiaHR0cDovL2xvY2FsaG9zdDozMDAwL2Zhdmljb24uaWNvIiwNCgkJCSJzaXplcyI6ICI0OHg0OCIsDQoJCQkidHlwZSI6ICJpbWFnZS9wbmciDQoJCX0sDQoJCXsNCgkJCSJzcmMiOiAiaHR0cDovL2xvY2FsaG9zdDozMDAwL2FuZHJvaWQtY2hyb21lLTE5MngxOTIucG5nIiwNCgkJCSJzaXplcyI6ICIxOTJ4MTkyIiwNCgkJCSJ0eXBlIjogImltYWdlL3BuZyINCgkJfSwNCgkJew0KCQkJInNyYyI6ICJodHRwOi8vbG9jYWxob3N0OjMwMDAvYW5kcm9pZC1jaHJvbWUtNTEyeDUxMi5wbmciLA0KCQkJInNpemVzIjogIjUxMng1MTIiLA0KCQkJInR5cGUiOiAiaW1hZ2UvcG5nIiwNCgkJCSJwdXJwb3NlIjogIm1hc2thYmxlIg0KCQl9LA0KCQl7DQoJCQkic3JjIjogImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcHBsZS10b3VjaC1pY29uLnBuZyIsDQoJCQkic2l6ZXMiOiAiMTgweDE4MCIsDQoJCQkidHlwZSI6ICJpbWFnZS9wbmciDQoJCX0NCgldDQp9" /> -->
+    <link rel="manifest" href="manifest.json" />
+
+    <title>MatriXYZ</title>
+    <script type="module" crossorigin src="assets/index.79627b3f.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', () => {
+            navigator.serviceWorker.register('sw.js', { scope: '/matrixyz/' })
+              .then(registration => {
+                console.log(`Service Worker registered: ${registration.scope}`);
+              })
+              .catch(err => {
+                console.log(`failed: ${err}`);
+              });
+          });
+        }
+    </script>
+    <link rel="stylesheet" href="assets/index.782b3c5a.css">
+  </head>
+  <body class="bg-slate-200 bg-[url('./src/assets/bg.png')] bg-no-repeat bg-top font-['irancell']">
+    <div id="app"></div>
+    
+  </body>
+</html>

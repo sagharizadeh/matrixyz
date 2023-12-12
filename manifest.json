@@ -1,0 +1,42 @@
+{
+	"name": "MatriXYZ",
+	"short_name": "MatriXYZ",
+	"start_url": "https://sagharizadeh.github.io/matrixyz/",
+	"display": "standalone",
+	"theme_color": "#e2e8f0",
+	"background_color": "#e2e8f0",
+	"description": "توی یه ثانیه سنگین ترین محاسبات ماتریسی رو حساب کن!",
+	"icons": [
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/favicon-16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/favicon-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/favicon.ico",
+			"sizes": "48x48",
+			"type": "image/png"
+		},
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "https://sagharizadeh.github.io/matrixyz/apple-touch-icon.png",
+			"sizes": "180x180",
+			"type": "image/png"
+		}
+	]
+}
